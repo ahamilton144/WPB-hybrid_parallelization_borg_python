@@ -2,7 +2,7 @@
 
 nodes=12
 ntasks_per_node=1
-dependency=123103
+dependency=0
 t=01:00:00
 
 SLURM="#!/bin/bash\n\
