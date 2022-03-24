@@ -1,6 +1,6 @@
 # WPB-hybrid_parallelization_borg_python
 
-This repository contains all code related to the post ["To parallelize or not to parallelize? On performance of hybrid schemes in Python with the Borg MOEA,"](https://wordpress.com/post/waterprogramming.wordpress.com/19006) by Andrew Hamilton, on the Water Programming Blog.
+This repository contains all code related to the post ["To parallelize or not to parallelize? On performance of hybrid schemes in Python with the Borg MOEA,"](https://waterprogramming.wordpress.com/2022/03/23/to-parallelize-or-not-to-parallelize-on-performance-of-hybrid-schemes-in-python-with-the-borg-moea/) by Andrew Hamilton, on the Water Programming Blog.
 
 All experiments were run on the Cube cluster at Cornell University, using 12 nodes. I used Python 3.9.4, and the only non-standard modules needed are scipy and Jupyter Notebooks. You will also need to download the [Borg MOEA](http://borgmoea.org/), the [MOEA Framework](http://moeaframework.org/), and [pareto.py](https://github.com/matthewjwoodruff/pareto.py), and place them in the same directory as the files from this repo. See [Andrew Dircks' blog post] on the Borg MOEA Python wrapper for instructions on how to compile the Borg libraries. This repository borrows heavily from the code in that blog post, but modifies it to include parallelization of the Monte Carlo samples in each function evaluation.0
 
